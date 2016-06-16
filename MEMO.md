@@ -13,7 +13,7 @@ define("PI", 3.14);
 
 ```php
 $chaine = "Hodor";
-$charactere = 'k';
+$caractere = 'k';
 $entier = 1;
 $flottant = 1.2;
 $booleen = TRUE // ou FALSE;
