@@ -57,3 +57,23 @@ Notions : PHP, Ajax, jQuery, JSON
 
 Faire varier le résultat de la deuxième liste en fonction de la valeur choisie dans la première.
 
+## TP 7 : Générateur de mot de passe
+Notions : Chaine, boucle, fonction
+
+Un bon mot de passe ne doit pas être facilement déductible et contenir beaucoup de caractères. Le problème est que ce genre de mot de passe est souvent difficile à retenir.
+Il existe une astuce pour construire des mots de passes robustes et facile à retenir. 
+
+1. Le premier niveau consiste à saisir une phrase et à prendre la première lettre de chaque mot.
+    ex : "Je ne vois pas le rapport avec la Bretagne" => "JnvplralB"
+2. Le second niveau devra prendre en compte certains caractères spéciaux.
+    ex : "C'est pas faux !" => "C'epf!"
+3. Enfin, le dernier niveau devra laisser apparaitre tous les chiffres.
+    ex : "Je vais sur mes 884 quand même !" => "Jvsm884qm!"
+
+Bonus : Attribuez une évaluation (faible, moyen, bon, très bon) selon le niveau de complexité et le nombre de caractères générés.
+
+Faible : Niveau 1 et < 8
+Moyen : Niveau 2 et <8 ou Niveau 1 > 8
+Bon : Niveau 3 et <8 ou Niveau 2 > 8
+Très bon : Niveau 3 > 8
+
