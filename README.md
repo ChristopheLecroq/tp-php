@@ -51,3 +51,9 @@ Le but est de faire deux pages : l'une contient un formulaire d'identification (
 1. Entrez un login et un mot de passe dans un formulaire.
 2. Affichez un message si le mot de passe ou le login est incorrect.
 3. Si le mot de passe et le login sont corrects, affichez la page "protégée". 
+
+## TP 6 : Listes liées
+Notions : PHP, Ajax, jQuery, JSON
+
+Faire varier le résultat de la deuxième liste en fonction de la valeur choisie dans la première.
+
